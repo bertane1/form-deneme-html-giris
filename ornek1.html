@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--* reqiured zorunlu bir alan olduğunu belirtir, o alan doldurulamadan form gönderilemez. -->
+    <form>
+    <label for="Isim">Isim:</label>
+    <br>   
+    <input type="text" placeholder="Adinizi Giriniz" name="" id="Isim" required>
+    <br>
+    <label for="Soyisim">Soyisim:</label>
+    <br>
+    <input type="text" placeholder="Soyadinizi Giriniz" name="" id="Soyisim" required>
+    <br>
+    <label for="Tel">Tel:</label>
+    <br>
+    <input type="tel" placeholder="+90 555 55 55" name="" id="Tel">
+    <br>
+    <label for="email">Email:</label>
+    <br>
+    <input type="email" placeholder="example@gmail.com" name="" id="email">
+    <br>
+    <label for="nick">Kullanici Adi:</label>
+    <br>
+    <input type="text" name="" id="nick">
+    <br>
+    <label for="sifre">Sifre:</label>
+    <br>
+    <input type="password" name="" id="sifre">
+    <br>   
+    <label for="sifretek">Sifre Tekrar:</label>
+    <br>
+    <input type="password" name="" id="sifretek">
+    <br>
+
+
+    <label for="ulke">Ulke Seciniz:</label>
+    <br>
+    <select name="Turkiye" id="ulke">
+        <option value="">Turkiye   </option>
+        <option value="">Almanya  </option>
+        <option value="">Italya   </option>
+    </select>
+    <br>
+
+
+    <label for="soft">Software</label>
+    <br>
+    <input type="checkbox" name="secim" id="soft">
+    <br>
+    <label for="doc">Doktor</label>
+    <br>
+    <input type="checkbox" name="secim" id="doc">
+    <br>
+    <label for="dok">Doktor</label>
+    <br>
+    <input type="radio" name="" id="dok">
+    <br>
+    <input type="reset" value="Yenile">
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
